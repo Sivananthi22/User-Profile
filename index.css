@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    width: 90%;
-    margin: 20px;
+    width: 95%;
+    margin-top: 100px;;
 }
 
 .cards {
@@ -19,6 +19,7 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .profile-card {
@@ -27,20 +28,23 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
-    width: 250px;
+    width: 300px;
+    height:300px;
 }
 
 .profile-card img {
+    margin-top: 35px;
     border-radius: 50%;
     margin-bottom: 10px;
+    height: 180px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background: white;
-    color: #000;
+    background: black;
+    color: #fff;
 }
 
 table, th, td {
@@ -49,12 +53,18 @@ table, th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: gray;
     text-align: left;
 }
 button{
-    width: 95px;
+    width: 105px;
     height: 35px;
     margin-top: 20px;
     cursor: pointer;
+    font-size: medium;
+    color:white;
+    background-color:gray;;
+}
+button:hover{
+    background-color: black;
 }
